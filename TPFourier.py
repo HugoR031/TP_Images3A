@@ -54,6 +54,16 @@ if __name__ == "__main__":
     img = atom(128,128,0.1,0)
     affiche_image(img)    
     fourier2d(img,1)
+    
+    img2 = atom(128,128,0,0.1)
+    affiche_image(img2)
+    fourier2d(img2,1)
+    
+    img3 = atom(128,128,0.3,0.3)
+    affiche_image(img3)
+    fourier2d(img3,1)
+
+
 
     plt.show()
 
